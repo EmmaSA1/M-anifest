@@ -2,13 +2,15 @@ const CACHE_STATIC = 'app-shell-v1';
 const CACHE_DYNAMIC = 'app-dynamic-v1';
 
 const ASSETS_APP_SHELL = [
-  '/',
-  '/index.html',
-  '/main.js',
-  '/styles.css',
-  '/calendario.html',
-  './sw.js',
-  '/formulario.html'
+  '/M-anifest/',
+  '/M-anifest/index.html',
+  '/M-anifest/main.js',
+  '/M-anifest/styles.css',
+  '/M-anifest/calendario.html',
+  '/M-anifest/sw.js',
+  '/M-anifest/formulario.html',
+  '/M-anifest/192.png',
+  '/M-anifest/512.png'
 ];
 
 self.addEventListener('install', event => {
