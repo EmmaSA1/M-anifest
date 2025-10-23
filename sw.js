@@ -47,7 +47,7 @@ self.addEventListener('fetch', event => {
             return networkResp;
           });
         })
-        .catch(() => caches.match('/index.html'));
+        .catch(() => caches.match('/M-anifest/index.html'));
     })
   );
 });
